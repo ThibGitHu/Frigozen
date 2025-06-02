@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "titre": "Pâtes au thon express",
+      "categorie": "pâtes",
+      "ingredients": ["pâtes", "thon", "crème", "sel"],
+      "image": "img/pates-thon.jpg"
+    },
+    {
+      "id": 2,
+      "titre": "Salade riz-tomate",
+      "categorie": "salade",
+      "ingredients": ["riz", "tomate", "huile d'olive", "maïs"],
+      "image": "img/salade-riz.jpg"
+    },
+    {
+      "id": 3,
+      "titre": "Tartines anti-gaspi",
+      "categorie": "pain",
+      "ingredients": ["pain rassis", "fromage", "ail", "herbes"],
+      "image": "img/tartines.jpg"
+    },
+    {
+      "id": 4,
+      "titre": "Omelette aux restes",
+      "categorie": "oeufs",
+      "ingredients": ["oeufs", "légumes", "sel", "poivre"],
+      "image": "img/omelette.jpg"
+    },
+    {
+      "id": 5,
+      "titre": "Gratin pâtes/légumes",
+      "categorie": "pâtes",
+      "ingredients": ["pâtes", "légumes", "béchamel", "fromage"],
+      "image": "img/gratin.jpg"
+    }
+  ]
+  

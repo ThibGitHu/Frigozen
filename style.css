@@ -1,0 +1,220 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    height: 100vh;
+  }
+  
+  .login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-container {
+    background: white;
+    padding: 2em;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    width: 90%;
+    max-width: 350px;
+    text-align: center;
+  }
+  
+  .login-container h1 {
+    margin-bottom: 1em;
+    color: #ff4d6d;
+  }
+  
+  .login-container input {
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 8px;
+    background: #f0f0f0;
+  }
+  
+  .login-container button {
+    width: 100%;
+    padding: 0.8em;
+    background: #ff4d6d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .login-container button:hover {
+    background: #e04057;
+  }
+
+  /* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body, html {
+    height: 100%;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header */
+  .app-header {
+    position: relative;
+    background: #ff4d6d;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .welcome-text {
+    font-size: 1.2em;
+  }
+  
+  .burger-menu {
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Side Menu */
+  .side-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: white;
+    width: 70%;
+    max-width: 250px;
+    height: 100vh;
+    box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+    padding: 2em 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .side-menu.hidden {
+    transform: translateX(100%);
+  }
+  
+  .side-menu a {
+    color: #333;
+    font-size: 1.1em;
+    text-decoration: none;
+  }
+  
+  /* Search section */
+  .search-section {
+    padding: 1em;
+    display: flex;
+    gap: 0.5em;
+    background: #fff;
+  }
+  
+  .search-section input {
+    flex: 1;
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .search-section button {
+    padding: 0.8em 1em;
+    background: #ff4d6d;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  /* Card container */
+  .card-container {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 400px;
+  }
+  
+  .recipe-card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 360px;
+    overflow: hidden;
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+  }
+  
+  .recipe-card h3 {
+    margin: 0.5em 0;
+    color: #ff4d6d;
+  }
+  
+  .recipe-card ul {
+    list-style: none;
+    padding: 0.5em 1em;
+    text-align: left;
+    font-size: 0.9em;
+  }
+  
+  /* Buttons */
+  .card-actions {
+    position: fixed;
+    bottom: 1.5em;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 1em;
+  }
+  
+  .card-actions .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 1.5em;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn.gray {
+    background: #ccc;
+  }
+  
+  .btn.yellow {
+    background: #ffcc00;
+    color: #333;
+  }
+  
+  .btn.red {
+    background: #ff4d6d;
+  }
+  
+  .btn.blue {
+    background: #007bff;
+  }
+  
