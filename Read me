@@ -1,0 +1,15 @@
+alors je vais expliquer comment ca marche.
+J ai fais sur Visual Studio code, pour le lancer, je passe par MAMP, faut l installer.
+Dans MAMP, il y a un dossier HTDOCS, vous allez dedans et creer un dossier "recettes-app". 
+A mettre dans le dossier "recettes-app": account.php, favorites.php, home.php, index.php, recipe.php, settings.php, ession.php, favorites.js, logout.php.
+Ce sont les fichiers a mettre dans le dossiers.
+Par contre aussi dans "recettes-app", creer un dossier "data" et un dossier "assets".
+Dans "data" mettre recettes.json
+et dans "assets": creer 3 dossiers "css", "js" et "img": dans "css" mettre style.css, dans "js" mettre app.js, et dans "img" les images qui illustrons les recettes.
+POUR LE LANCER:
+Lancer MAMP, et appyer dans le petite fenetre qui s ouvre sur "start".(en haut a droite)
+Sur google ensuite (ou autre navigateur), ecrire dans la recherche "http://localhost:8888/recettes-app/index.php", 
+si ca ne marche pas tu peux juste ecrire "http://localhost:8888" et choisir le dossier "recettes-app" et normalment c est bon.
+
+si besoin ptit message tu connais 
+bisous bon taff tete de neuille
